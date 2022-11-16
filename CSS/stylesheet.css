@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --beige: #FCF5B3;
+    --rojo: #FD3838;
+}
+body{
+    font-size: 20px;
+    background-color: var(--beige);
+}
+  header, nav, main, footer{
+      padding: 0 200px;
+}
+/*HEADER*/
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rojo);
+    color: beige;
+    height: 8.33vh;
+    font-family: 'normal';
+    font-size: 0.8em;
+}
+/*NAV*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--beige);
+    height: 16.66vh;
+}
+    nav img{
+    width: 76px ;
+    height: 78px;
+    }
+    nav a{
+    font-family: 'normal';
+    color: var(--rojo);
+    font-size: 1em;
+    text-decoration: none;
+    }
+/*MAIN*/
+main{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: var(--beige);
+    height: 58.31vh;
+    font-family: 'rotulada';
+}
+    h1{
+    text-align: center;
+    font-family: 'rotulada';
+    font-size: 3.5em;
+    font-weight: 100;
+    color: var(--rojo);
+    }
+    h2{
+    text-align: center;
+    padding-bottom: 2em;
+    font-family: Space Grotesk;
+    font-size: 1em;
+    font-weight: 100;
+    color: var(--rojo);
+    }  
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 1.2em;
+    background-color: var(--beige);
+    height: 16.66;
+    font-family: 'normal';
+    font-size: 0.8em;
+    color: var(--rojo);
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'rotulada';
+        src: url(../fonts/Pilowlava/Pilowlava-Regular.otf),
+         url(../fonts/Pilowlava/Pilowlava-Regular.svg),
+         url(../fonts/Pilowlava/Pilowlava-Regular.woff),
+         url(../fonts/Pilowlava/Pilowlava-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: normal;
+        src: url(../fonts/Spacegrotesk/SpaceGrotesk-Medium.svg),
+         url(../fonts/Spacegrotesk/SpaceGrotesk-Medium.ttf),
+         url(../fonts/Spacegrotesk/SpaceGrotesk-Medium.woff),
+         url(../fonts/Spacegrotesk/SpaceGrotesk-Medium.woff2);
+    font-weight: normal;
+    font-family: normal;
+    font-display: swap;
+}
